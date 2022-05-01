@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<head lang="ja">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <style>
+    </style>
+    <title>Memo</title>
+</head>
+<body>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!--
+    <script src="#"></script>
+    -->
+
+    <div>
+        {% csrf_token %}
+        {{ memo_data }}
+    </div>
+</body>
+</html>
